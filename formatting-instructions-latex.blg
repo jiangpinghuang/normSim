@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: formatting-instructions-latex.aux
+The style file: aaai.bst
+Database file #1: aaai16.bib.bib
+Warning--empty booktitle in Kim-AAAI1612489
+Warning--empty journal in mikolov2010recurrent
+You've used 26 entries,
+            2568 wiz_defined-function locations,
+            747 strings with 11120 characters,
+and the built_in function-call counts, 13165 in all, are:
+= -- 1454
+> -- 487
+< -- 19
++ -- 168
+- -- 164
+* -- 978
+:= -- 1975
+add.period$ -- 145
+call.type$ -- 26
+change.case$ -- 186
+chr.to.int$ -- 25
+cite$ -- 28
+duplicate$ -- 562
+empty$ -- 944
+format.name$ -- 209
+if$ -- 2876
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 26
+newline$ -- 174
+num.names$ -- 78
+pop$ -- 169
+preamble$ -- 1
+purify$ -- 212
+quote$ -- 0
+skip$ -- 490
+stack$ -- 0
+substring$ -- 784
+swap$ -- 217
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 208
+warning$ -- 2
+while$ -- 110
+width$ -- 31
+write$ -- 396
+(There were 2 warnings)

@@ -1,0 +1,230 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Bahdanau, Cho, and
+  Bengio}{2014}]{DBLP:journals/corr/BahdanauCB14}
+Bahdanau, D.; Cho, K.; and Bengio, Y.
+\newblock 2014.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock {\em CoRR} abs/1409.0473.
+
+\bibitem[\protect\citeauthoryear{Ganitkevitch, Van~Durme, and
+  Callison-Burch}{2013}]{ganitkevitch-vandurme-callisonburch:2013:NAACL-HLT}
+Ganitkevitch, J.; Van~Durme, B.; and Callison-Burch, C.
+\newblock 2013.
+\newblock Ppdb: The paraphrase database.
+\newblock In {\em Proceedings of the 2013 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies},  758--764.
+\newblock Atlanta, Georgia: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Gulcehre \bgroup et al\mbox.\egroup
+  }{2016}]{gulcehre-EtAl:2016:P16-1}
+Gulcehre, C.; Ahn, S.; Nallapati, R.; Zhou, B.; and Bengio, Y.
+\newblock 2016.
+\newblock Pointing the unknown words.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)},  140--149.
+\newblock Berlin, Germany: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Han and
+  Baldwin}{2011}]{han-baldwin:2011:ACL-HLT2011}
+Han, B., and Baldwin, T.
+\newblock 2011.
+\newblock Lexical normalisation of short text messages: Makn sens a \#twitter.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies},  368--378.
+\newblock Portland, Oregon, USA: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Henderson and
+  Popa}{2016}]{henderson-popa:2016:P16-1}
+Henderson, J., and Popa, D.
+\newblock 2016.
+\newblock A vector space for distributional semantics for entailment.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)},  2052--2062.
+\newblock Berlin, Germany: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Hochreiter and
+  Schmidhuber}{1997}]{Hochreiter:1997:LSM:1246443.1246450}
+Hochreiter, S., and Schmidhuber, J.
+\newblock 1997.
+\newblock Long short-term memory.
+\newblock {\em Neural Comput.} 9(8):1735--1780.
+
+\bibitem[\protect\citeauthoryear{Hochreiter}{1998}]{Hochreiter:1998:VGP:353515.355233}
+Hochreiter, S.
+\newblock 1998.
+\newblock The vanishing gradient problem during learning recurrent neural nets
+  and problem solutions.
+\newblock {\em Int. J. Uncertain. Fuzziness Knowl.-Based Syst.} 6(2):107--116.
+
+\bibitem[\protect\citeauthoryear{Jan and Blunsom}{2014}]{jan-phil:2014:icml}
+Jan, A.~B., and Blunsom, P.
+\newblock 2014.
+\newblock Compositional morphology forword representations and language
+  modelling.
+\newblock In {\em Proceedings of the 31st International Conference on Machine
+  Learning}, volume~32.
+\newblock Beijing, China: JMLR.
+
+\bibitem[\protect\citeauthoryear{Kim \bgroup et al\mbox.\egroup
+  }{2016}]{Kim-AAAI1612489}
+Kim, Y.; Jernite, Y.; Sontag, D.; and Rush, A.
+\newblock 2016.
+\newblock Character-aware neural language models.
+\newblock  2741--2749.
+
+\bibitem[\protect\citeauthoryear{Li and
+  Liu}{2015}]{Li:2015:JPT:2832415.2832425}
+Li, C., and Liu, Y.
+\newblock 2015.
+\newblock Joint pos tagging and text normalization for informal text.
+\newblock In {\em Proceedings of the 24th International Conference on
+  Artificial Intelligence}, IJCAI'15,  1263--1269.
+\newblock AAAI Press.
+
+\bibitem[\protect\citeauthoryear{Liang and
+  Paritosh}{2016}]{chen-praveen:2016:ijcai}
+Liang, C., and Paritosh, P.
+\newblock 2016.
+\newblock Learning paraphrase identification with structural alignmen.
+\newblock In {\em Proceedings of the Twenty-Fifth International Joint
+  Conference on Artificial Intelligence},  2859--2865.
+
+\bibitem[\protect\citeauthoryear{Ling \bgroup et al\mbox.\egroup
+  }{2013}]{ling-EtAl:2013:EMNLP}
+Ling, W.; Dyer, C.; Black, A.~W.; and Trancoso, I.
+\newblock 2013.
+\newblock Paraphrasing 4 microblog normalization.
+\newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
+  Natural Language Processing},  73--84.
+\newblock Seattle, Washington, USA: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Mikolov \bgroup et al\mbox.\egroup
+  }{2010}]{mikolov2010recurrent}
+Mikolov, T.; Karafiat, M.; Burget, L.; Cernocký, J.; and Khudanpur, S.
+\newblock 2010.
+\newblock Recurrent neural network based language model.
+
+\bibitem[\protect\citeauthoryear{Mueller and
+  Thyagarajan}{2016}]{jonas-aditya:2016:AAAI}
+Mueller, J., and Thyagarajan, A.
+\newblock 2016.
+\newblock Siamese recurrent architectures for learning sentence similarity.
+\newblock In {\em AAAI Conference on Artificial Intelligence},  2786--2792.
+
+\bibitem[\protect\citeauthoryear{Pavlick \bgroup et al\mbox.\egroup
+  }{2015a}]{pavlick-EtAl:2015:ACL-IJCNLP}
+Pavlick, E.; Bos, J.; Nissim, M.; Beller, C.; Van~Durme, B.; and
+  Callison-Burch, C.
+\newblock 2015a.
+\newblock Adding semantics to data-driven paraphrasing.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)},  1512--1522.
+\newblock Beijing, China: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Pavlick \bgroup et al\mbox.\egroup
+  }{2015b}]{pavlick-EtAl:2015:ACL-IJCNLP3}
+Pavlick, E.; Rastogi, P.; Ganitkevitch, J.; Van~Durme, B.; and Callison-Burch,
+  C.
+\newblock 2015b.
+\newblock Ppdb 2.0: Better paraphrase ranking, fine-grained entailment
+  relations, word embeddings, and style classification.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 2: Short Papers)},  425--430.
+\newblock Beijing, China: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Severyn and
+  Moschitti}{2015}]{Severyn:2015:LRS:2766462.2767738}
+Severyn, A., and Moschitti, A.
+\newblock 2015.
+\newblock Learning to rank short text pairs with convolutional deep neural
+  networks.
+\newblock In {\em Proceedings of the 38th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, SIGIR '15,  373--382.
+\newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Tran, Bisazza, and
+  Monz}{2016}]{tran-bisazza-monz:2016:N16-1}
+Tran, K.; Bisazza, A.; and Monz, C.
+\newblock 2016.
+\newblock Recurrent memory networks for language modeling.
+\newblock In {\em Proceedings of the 2016 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies},  321--331.
+\newblock San Diego, California: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{van~der Goot and van
+  Noord}{2015}]{vandergoot-vannoord:2015:SemEval}
+van~der Goot, R., and van Noord, G.
+\newblock 2015.
+\newblock Rob: Using semantic meaning to recognize paraphrases.
+\newblock In {\em Proceedings of the 9th International Workshop on Semantic
+  Evaluation (SemEval 2015)},  40--44.
+\newblock Denver, Colorado: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Wang \bgroup et al\mbox.\egroup
+  }{2015}]{wang-EtAl:2015:ACL-IJCNLP3}
+Wang, M.; Lu, Z.; Li, H.; Jiang, W.; and Liu, Q.
+\newblock 2015.
+\newblock A convolutional architecture for word sequence prediction.
+\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
+  Computational Linguistics and the 7th International Joint Conference on
+  Natural Language Processing (Volume 1: Long Papers)},  1567--1576.
+\newblock Beijing, China: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Wieting \bgroup et al\mbox.\egroup
+  }{2015}]{DBLP:journals/corr/WietingBGL15a}
+Wieting, J.; Bansal, M.; Gimpel, K.; and Livescu, K.
+\newblock 2015.
+\newblock Towards universal paraphrastic sentence embeddings.
+\newblock {\em CoRR} abs/1511.08198.
+
+\bibitem[\protect\citeauthoryear{Xu \bgroup et al\mbox.\egroup
+  }{2014}]{Xu-EtAl-2014:TACL}
+Xu, W.; Ritter, A.; Callison-Burch, C.; Dolan, W.~B.; and Ji, Y.
+\newblock 2014.
+\newblock Extracting lexically divergent paraphrases from {Twitter}.
+\newblock {\em Transactions of the Association for Computational Linguistics
+  (TACL)} 2(1).
+
+\bibitem[\protect\citeauthoryear{Xu, Callison-Burch, and
+  Dolan}{2015}]{xu-callisonburch-dolan:2015:SemEval}
+Xu, W.; Callison-Burch, C.; and Dolan, B.
+\newblock 2015.
+\newblock Semeval-2015 task 1: Paraphrase and semantic similarity in twitter
+  (pit).
+\newblock In {\em Proceedings of the 9th International Workshop on Semantic
+  Evaluation (SemEval 2015)},  1--11.
+\newblock Denver, Colorado: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Yin and
+  Sch\"{u}tze}{2015}]{yin-schutze:2015:NAACL}
+Yin, W., and Sch\"{u}tze, H.
+\newblock 2015.
+\newblock Convolutional neural network for paraphrase identification.
+\newblock In {\em Proceedings of the 2015 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies},  901--911.
+\newblock Denver, Colorado: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Zaremba and
+  Sutskever}{2014}]{DBLP:journals/corr/ZarembaS14}
+Zaremba, W., and Sutskever, I.
+\newblock 2014.
+\newblock Learning to execute.
+\newblock {\em CoRR} abs/1410.4615.
+
+\bibitem[\protect\citeauthoryear{Zarrella \bgroup et al\mbox.\egroup
+  }{2015}]{zarrella-EtAl:2015:SemEval}
+Zarrella, G.; Henderson, J.; Merkhofer, E.~M.; and Strickhart, L.
+\newblock 2015.
+\newblock Mitre: Seven systems for semantic similarity in tweets.
+\newblock In {\em Proceedings of the 9th International Workshop on Semantic
+  Evaluation (SemEval 2015)},  12--17.
+\newblock Denver, Colorado: Association for Computational Linguistics.
+
+\end{thebibliography}
