@@ -5,45 +5,45 @@ The style file: aaai.bst
 Database file #1: aaai16.bib.bib
 Warning--empty booktitle in Kim-AAAI1612489
 Warning--empty journal in mikolov2010recurrent
-You've used 26 entries,
+You've used 30 entries,
             2568 wiz_defined-function locations,
-            747 strings with 11120 characters,
-and the built_in function-call counts, 13165 in all, are:
-= -- 1454
-> -- 487
-< -- 19
-+ -- 168
-- -- 164
-* -- 978
-:= -- 1975
-add.period$ -- 145
-call.type$ -- 26
-change.case$ -- 186
-chr.to.int$ -- 25
-cite$ -- 28
-duplicate$ -- 562
-empty$ -- 944
-format.name$ -- 209
-if$ -- 2876
+            775 strings with 12206 characters,
+and the built_in function-call counts, 15375 in all, are:
+= -- 1706
+> -- 549
+< -- 23
++ -- 189
+- -- 184
+* -- 1135
+:= -- 2283
+add.period$ -- 169
+call.type$ -- 30
+change.case$ -- 212
+chr.to.int$ -- 29
+cite$ -- 32
+duplicate$ -- 664
+empty$ -- 1115
+format.name$ -- 239
+if$ -- 3379
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 26
-newline$ -- 174
-num.names$ -- 78
-pop$ -- 169
+missing$ -- 30
+newline$ -- 202
+num.names$ -- 90
+pop$ -- 193
 preamble$ -- 1
-purify$ -- 212
+purify$ -- 242
 quote$ -- 0
-skip$ -- 490
+skip$ -- 582
 stack$ -- 0
-substring$ -- 784
-swap$ -- 217
-text.length$ -- 19
+substring$ -- 941
+swap$ -- 263
+text.length$ -- 23
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 208
+type$ -- 240
 warning$ -- 2
-while$ -- 110
-width$ -- 31
-write$ -- 396
+while$ -- 130
+width$ -- 35
+write$ -- 461
 (There were 2 warnings)

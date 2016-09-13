@@ -75,6 +75,15 @@ Kim, Y.; Jernite, Y.; Sontag, D.; and Rush, A.
 \newblock Character-aware neural language models.
 \newblock  2741--2749.
 
+\bibitem[\protect\citeauthoryear{Li and Liu}{2014}]{li-liu:2014:P14-3}
+Li, C., and Liu, Y.
+\newblock 2014.
+\newblock Improving text normalization via unsupervised model and
+  discriminative reranking.
+\newblock In {\em Proceedings of the ACL 2014 Student Research Workshop},
+  86--93.
+\newblock Baltimore, Maryland, USA: Association for Computational Linguistics.
+
 \bibitem[\protect\citeauthoryear{Li and
   Liu}{2015}]{Li:2015:JPT:2832415.2832425}
 Li, C., and Liu, Y.
@@ -100,6 +109,15 @@ Ling, W.; Dyer, C.; Black, A.~W.; and Trancoso, I.
 \newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
   Natural Language Processing},  73--84.
 \newblock Seattle, Washington, USA: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Luong, Pham, and
+  Manning}{2015}]{luong-pham-manning:2015:EMNLP}
+Luong, T.; Pham, H.; and Manning, C.~D.
+\newblock 2015.
+\newblock Effective approaches to attention-based neural machine translation.
+\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
+  Natural Language Processing},  1412--1421.
+\newblock Lisbon, Portugal: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Mikolov \bgroup et al\mbox.\egroup
   }{2010}]{mikolov2010recurrent}
@@ -137,6 +155,17 @@ Pavlick, E.; Rastogi, P.; Ganitkevitch, J.; Van~Durme, B.; and Callison-Burch,
   Natural Language Processing (Volume 2: Short Papers)},  425--430.
 \newblock Beijing, China: Association for Computational Linguistics.
 
+\bibitem[\protect\citeauthoryear{Pennell and
+  Liu}{2011}]{pennell-liu:2011:IJCNLP-2011}
+Pennell, D., and Liu, Y.
+\newblock 2011.
+\newblock A character-level machine translation approach for normalization of
+  sms abbreviations.
+\newblock In {\em Proceedings of 5th International Joint Conference on Natural
+  Language Processing},  974--982.
+\newblock Chiang Mai, Thailand: Asian Federation of Natural Language
+  Processing.
+
 \bibitem[\protect\citeauthoryear{Severyn and
   Moschitti}{2015}]{Severyn:2015:LRS:2766462.2767738}
 Severyn, A., and Moschitti, A.
@@ -146,6 +175,15 @@ Severyn, A., and Moschitti, A.
 \newblock In {\em Proceedings of the 38th International ACM SIGIR Conference on
   Research and Development in Information Retrieval}, SIGIR '15,  373--382.
 \newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Sutskever, Vinyals, and
+  Le}{2014}]{Sutskever:2014:SSL:2969033.2969173}
+Sutskever, I.; Vinyals, O.; and Le, Q.~V.
+\newblock 2014.
+\newblock Sequence to sequence learning with neural networks.
+\newblock In {\em Proceedings of the 27th International Conference on Neural
+  Information Processing Systems}, NIPS'14,  3104--3112.
+\newblock Cambridge, MA, USA: MIT Press.
 
 \bibitem[\protect\citeauthoryear{Tran, Bisazza, and
   Monz}{2016}]{tran-bisazza-monz:2016:N16-1}

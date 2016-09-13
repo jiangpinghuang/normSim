@@ -27,17 +27,7 @@ Palo Alto, California 94303\\
 }
 \maketitle
 \begin{abstract}
-	Paraphrase identification for tweet is a new challenge due to informal expression. In this paper, we present a end-to-end approach to sequence learning that transfers text normalization into a neural machine translation task. Then a siamese recurrent architecture is used for learning sentence similarity after the sentences have been normalized. Our model employs a convolutional neural network and a highway network over characters, whose output is given to a long short-term memory recurrent neural network to map the input sequence to a vector of a fixed dimensionality, and then another long short-term memory to decode the target sequence from the vector. We add an attentional mechanism to improve the performance of tweet normalization, which can also be beneficial to paraphrase detection. Novelty of this work is three-fold: First, to the best of our knowledge, this is an early attempt to adopt attention-based end-to-end model for tweet normalization. Second, our proposed normalization method relies on  
-	character-level inputs, making it fewer parameters to obtain comparable performance to word inputs. And third, we conduct a series of experiments and prove that the proposed method is advantageous over the state-of-art solutions for tweet normalization and semantic similarity. Our method shows significant performance gains on the paraphrase identification in tweet task compared with several strong baselines. 
-	
-	siam  minimal assumptions on the sequence structure. Our model employs a convolutional neural network 
-	
-	task   in Twitter is a challenge task
-	
-	
-	Normalization and semantic similarity of tweet plays an important role in many NLP tasks. We first describe a neural language model that relies on character-level or word-level inputs with attention-based sequence to sequence model. Our model employs a long short term memory and convolutional neural networks over either word or character, 
-	It requires 
-	About tweet similarity, including paraphrase identification and entialment etc.. Moreover, the key work is about normalization in tweets. We are going to use language model for normalization using the character-aware model. And paraphrase identification tasks are used for evaluating the performance of normalization in tweets.About tweet similarity, including paraphrase identification and entialment etc.. Moreover, the key work is about normalization in tweets. We are going to use language model for normalization using the character-aware model. And paraphrase identification tasks are used for evaluating the performance of normalization in tweets.About tweet similarity, including paraphrase identification and entialment etc.. Moreover, the key work is about normalization in tweets. We are going to use language model for normalization using the character-aware model. And paraphrase identification tasks are used for evaluating the performance of normalization in tweets.About tweet similarity, including paraphrase identification and entialment etc.. Moreover, the key work is about normalization in tweets. We are going to use language model for normalization using the character-aware model. And paraphrase identification tasks are used for evaluating the performance of normalization in tweets. 
+	Paraphrase identification for tweet is a new challenge due to informal expression. In this paper, we present a end-to-end approach to sequence learning that transfers text normalization into a neural machine translation task. Then a siamese recurrent architecture is used for learning sentence similarity after the sentences have been normalized. Our model employs a convolutional neural network and a highway network over characters, whose output is given to a long short-term memory recurrent neural network to map the input sequence to a vector of a fixed dimensionality, and then another long short-term memory to decode the target sequence from the vector. We add an attentional mechanism to improve the performance of tweet normalization, which can be beneficial to paraphrase detection indirectly. Novelty of this work is three-fold: First, to the best of our knowledge, this is an early attempt to adopt attention-based end-to-end model for tweet normalization. Second, our proposed model relies on	character-level inputs, making it fewer parameters to obtain comparable performance to word inputs. And third, we conduct a series of experiments and prove that the proposed method is advantageous over the state-of-art solutions for tweet normalization and semantic similarity. Our method shows significant performance gains on the paraphrase identification in tweet task compared with several strong baselines. 
 \end{abstract}
 
 \section{Introduction}
@@ -171,14 +161,34 @@ This forces the LSTM to entirely capture the semantic difference during training
 We evaluated our model on the tweet normalization and paraphrase identification task, which is a benchmark for evaluating many semantic similarity models.
 
 \subsection{Dataset}
-The dataset includes two parts: tweet normalization and paraphrase identification. The tweet normalization dataset 
+The following data sets are used in our experiments. It includes tweet normalization and paraphrase identification.
 
-language model, tweet normalization, paraphrase identification and semantic similarity.
+\begin{itemize}
+	\item Data 1: 2,333 unique pairs of informal tokens and normalized words, collected form 2,577 Twitter messages, which selected form the Edinburgh Twitter corpus \cite{pennell-liu:2011:IJCNLP-2011}. And some changes were made on this data\footnote{http://www.hlt.utdallas.edu/~chenli/normalization} by Li and Yang \shortcite{li-liu:2014:P14-3}. This data is used for training the normalization models for tweet normalization.
+	\item Data 2: The data\footnote{http://www.hlt.utdallas.edu/~chenli/normalization\underline{ }pos/} was created by Chen and Liu \shortcite{Li:2015:JPT:2832415.2832425}, which is used for joint POS tagging and normalization of non-standard tokens. The data contains two parts: one is from, which includes 549 tweets. The another contains 789 tweets. We removed the POS tagging and use the first as development data and the second as test data.
+	\item Data 3: We use the PIT corpus\footnote{http://www.cis.upenn.edu/~xwe/
+	semeval2015pit/} for evaluating paraphrase identification. The training and development set contain 17,790 sentence pairs and test set includes 972 sentence pairs\cite{xu-callisonburch-dolan:2015:SemEval}. The data set can be used for paraphrase identification and semantic similarity in Twitter.
+\end{itemize}
 
-The evaluation includes normalization and similarity. The later is about both paraphrase identification and semantic textual similarity.
+\subsection{Traing Detail}
+Existing research has shown that attention mechanism work better than shallow recurrent neural network for squence to sequence tasks \cite{luong-pham-manning:2015:EMNLP,Sutskever:2014:SSL:2969033.2969173}. We adopt attention-based end-to-end structure with three layer for encoding and three layer for decoding, each of which is comprised of a different set of parameters. Each LSTM layers consists of 500 hidden neurons and the dimensionality of word embeddings is set to 500. Some other training details given as following.
 
-\subsection{Setup}
-languge model, normalization, similarity.
+\begin{itemize}	
+	\item Input sentence sequences are reversed.
+	\item Parameters are initialized form a uniform distribution between [-0.1, 0.1].
+	\item Batch size is set to 16.
+	\item Stochastic gradient descent is implemented without momentum using a fixed learning rate of 1. We start halving the learning rate every half epoch after 5 epochs. We trained our models for a total of 20 epoches.
+	\item Dropout rate is set to 0.3.
+	\item Size of the character embeddings is set to 30.
+	\item Number of covolution filters is 500.
+\end{itemize}
+
+Our implementation on a single GPU\footnote{The GPUs with 1280 Cuda cores and 6GB memory.} processes a speed of approximately 5,000-6,000 tokens per second.
+
+\subsection{Tweet Normalization}
+We 
+
+\subsection{Paraphrase Detection}
 
 \section{Related Work}
 Neural language models (NLM) contain a rich family of neural network architectures for language modeling. Some examples encompass recurrent \cite{mikolov2010recurrent}, convolutional \cite{wang-EtAl:2015:ACL-IJCNLP3}, and convolutional-recurrent \cite{Kim-AAAI1612489}. In Twitter, there are existing rare and unknown words due to the social media characteristic,  therefore it is necessary for language model to point the unknown words before normalization. A neural network models using attention adopted two softmax layers in order to predict the next word in conditional language models \cite{gulcehre-EtAl:2016:P16-1}. Recurrent memory network \cite{tran-bisazza-monz:2016:N16-1} not only amplifies the power of recurrent neural networks but also facilitates the understanding of its internal functions, the model can learn the correct words by the trained language model. Log-bilinear language models integrate compositional morphological representations and probabilistic language modelling \cite{jan-phil:2014:icml}.
