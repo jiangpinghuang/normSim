@@ -3,11 +3,16 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: formatting-instructions-latex.aux
 The style file: aaai.bst
 Database file #1: aaai16.bib.bib
+Warning--I didn't find a database entry for "das-smith:2009:ACLIJCNLP"
+Warning--I didn't find a database entry for "bertero-fung:2015:SemEval"
+Warning--I didn't find a database entry for "guo-diab:2012:ACL2012"
+Warning--I didn't find a database entry for "NIPS2011_4204"
+Warning--I didn't find a database entry for "bicici:2015:SemEval"
 Warning--empty booktitle in Kim-AAAI1612489
 Warning--empty journal in mikolov2010recurrent
 You've used 30 entries,
             2568 wiz_defined-function locations,
-            775 strings with 12206 characters,
+            785 strings with 12410 characters,
 and the built_in function-call counts, 15375 in all, are:
 = -- 1706
 > -- 549
@@ -46,4 +51,4 @@ warning$ -- 2
 while$ -- 130
 width$ -- 35
 write$ -- 461
-(There were 2 warnings)
+(There were 7 warnings)
