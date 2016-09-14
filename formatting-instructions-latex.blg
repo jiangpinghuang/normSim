@@ -3,52 +3,75 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: formatting-instructions-latex.aux
 The style file: aaai.bst
 Database file #1: aaai16.bib.bib
-Warning--I didn't find a database entry for "das-smith:2009:ACLIJCNLP"
-Warning--I didn't find a database entry for "bertero-fung:2015:SemEval"
-Warning--I didn't find a database entry for "guo-diab:2012:ACL2012"
-Warning--I didn't find a database entry for "NIPS2011_4204"
-Warning--I didn't find a database entry for "bicici:2015:SemEval"
+Repeated entry---line 394 of file aaai16.bib.bib
+ : @inproceedings{Severyn:2015:LRS:2766462.2767738
+ :                                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 683 of file aaai16.bib.bib
+ : @inproceedings{zarrella-EtAl:2015:SemEval
+ :                                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 707 of file aaai16.bib.bib
+ : @article{Hochreiter:1997:LSM:1246443.1246450
+ :                                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 804 of file aaai16.bib.bib
+ : @inproceedings{ganitkevitch-vandurme-callisonburch:2013:NAACL-HLT
+ :                                                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 828 of file aaai16.bib.bib
+ : @inproceedings{xu-callisonburch-dolan:2015:SemEval
+ :                                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 861 of file aaai16.bib.bib
+ : @inproceedings{xu-callisonburch-dolan:2015:SemEval
+ :                                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 885 of file aaai16.bib.bib
+ : @inproceedings{zarrella-EtAl:2015:SemEval
+ :                                          ,
+I'm skipping whatever remains of this entry
 Warning--empty booktitle in Kim-AAAI1612489
 Warning--empty journal in mikolov2010recurrent
-You've used 30 entries,
+You've used 35 entries,
             2568 wiz_defined-function locations,
-            785 strings with 12410 characters,
-and the built_in function-call counts, 15375 in all, are:
-= -- 1706
-> -- 549
-< -- 23
-+ -- 189
-- -- 184
-* -- 1135
-:= -- 2283
-add.period$ -- 169
-call.type$ -- 30
-change.case$ -- 212
-chr.to.int$ -- 29
-cite$ -- 32
-duplicate$ -- 664
-empty$ -- 1115
-format.name$ -- 239
-if$ -- 3379
+            809 strings with 13508 characters,
+and the built_in function-call counts, 18070 in all, are:
+= -- 2004
+> -- 640
+< -- 28
++ -- 218
+- -- 213
+* -- 1326
+:= -- 2676
+add.period$ -- 201
+call.type$ -- 35
+change.case$ -- 244
+chr.to.int$ -- 34
+cite$ -- 37
+duplicate$ -- 786
+empty$ -- 1322
+format.name$ -- 276
+if$ -- 3986
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 202
-num.names$ -- 90
-pop$ -- 193
+missing$ -- 35
+newline$ -- 237
+num.names$ -- 107
+pop$ -- 226
 preamble$ -- 1
-purify$ -- 242
+purify$ -- 279
 quote$ -- 0
-skip$ -- 582
+skip$ -- 686
 stack$ -- 0
-substring$ -- 941
-swap$ -- 263
-text.length$ -- 23
+substring$ -- 1110
+swap$ -- 314
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 240
+type$ -- 280
 warning$ -- 2
-while$ -- 130
-width$ -- 35
-write$ -- 461
-(There were 7 warnings)
+while$ -- 156
+width$ -- 40
+write$ -- 541
+(There were 7 error messages)

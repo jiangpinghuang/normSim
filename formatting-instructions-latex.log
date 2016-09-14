@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.6)  14 SEP 2016 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.6)  14 SEP 2016 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,53 +245,22 @@ Underfull \hbox (badness 1681) in paragraph at lines 174--175
 
 [4]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 225.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 224.
 
-
-LaTeX Warning: Citation `das-smith:2009:ACLIJCNLP' on page 5 undefined on input
- line 226.
-
-
-LaTeX Warning: Citation `NIPS2011_4204' on page 5 undefined on input line 227.
-
-
-LaTeX Warning: Citation `guo-diab:2012:ACL2012' on page 5 undefined on input li
-ne 229.
-
-
-LaTeX Warning: Citation `bicici:2015:SemEval' on page 5 undefined on input line
- 231.
-
-
-Overfull \hbox (113.09857pt too wide) in paragraph at lines 223--252
+Overfull \hbox (15.2846pt too wide) in paragraph at lines 222--241
  [] 
  []
 
 
-LaTeX Warning: Citation `das-smith:2009:ACLIJCNLP' on page 5 undefined on input
- line 262.
-
-
-LaTeX Warning: Citation `bertero-fung:2015:SemEval' on page 5 undefined on inpu
-t line 263.
-
-
-LaTeX Warning: Citation `guo-diab:2012:ACL2012' on page 5 undefined on input li
-ne 265.
-
-
-Overfull \hbox (9.77333pt too wide) in paragraph at lines 259--288
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1242) has occurred while \output is active []
 
  [5]
-(./formatting-instructions-latex.bbl
+(./formatting-instructions-latex.bbl [6]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ½ in font ptmr7t!
- [6]) [7]
+ [7]) [8
+
+]
 (./formatting-instructions-latex.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -300,11 +269,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  1764 strings out of 493089
  26170 string characters out of 6134842
- 99748 words of memory out of 5000000
+ 95870 words of memory out of 5000000
  5205 multiletter control sequences out of 15000+600000
  27666 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,24p,1755b,272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,10n,24p,1769b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texl
@@ -324,10 +293,10 @@ st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on formatting-instructions-latex.pdf (7 pages, 271172 bytes).
+Output written on formatting-instructions-latex.pdf (8 pages, 272263 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

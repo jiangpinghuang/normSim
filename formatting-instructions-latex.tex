@@ -186,7 +186,7 @@ Existing research has shown that attention mechanism work better than shallow re
 Our implementation on a single GPU\footnote{The GPUs with 1280 Cuda cores and 6GB memory.} processes a speed of approximately 5,000-6,000 tokens per second.
 
 \subsection{Results}
-A summay of our experimental results for tweet normalization is given Table 1. We observe better performances for tweet normalization based on character-level input than the word-level with attention mechanism. In the Table, the experimental results include two parts input: word-level and character-level. In each method, we use LSTM, attention (Attn) and reverse the source sequence (Rev), which is crucial to achieving good performance \cite{Sutskever:2014:SSL:2969033.2969173}. However, pre-trained word embeding is blind to subword information, and representation of rare words can be poorly estimated, leading to high perplexities for rare words. This is especially problematic in morphologically rich languages with long-tailed frequency distribution of domains with dynamic vocabularies (e.g. Twitter). So we adopta character-level convolutional neural networks for leverages subword infomration, which output is used as an input to a long short-term memory network. Similar to the memory cells in LSTM networks, highway (HW) layers allow for training of deep networks by adaptively carrying some dimensions of the input directly to the output. In our method, a max-over-time pooling operation is applied to obtain a fixed-dimensional representation of the word, which is given to the highway network. The highway network' output is used as the input to LSTM. From the table 1, we observe that the proposed method can obtain the comparable performance to joint decoding for tweet normalization. In addition, the character-level input has significant performance on word-level embedding input. Meanwhile, the attentional mechanism is beneficial to sequence to sequence model.
+A summay of our experimental results for tweet normalization is given Table 1. We observe better performances for tweet normalization based on character-level input than the word-level with attention mechanism. In the Table, the experimental results include two parts input: word-level (Word) and character-level (Char). In each method, we use LSTM, attention (Attn) and reverse the source sequence (Rev), which is crucial to achieving good performance \cite{Sutskever:2014:SSL:2969033.2969173}. However, pre-trained word embeding is blind to subword information, and representation of rare words can be poorly estimated, leading to high perplexities for rare words. This is especially problematic in morphologically rich languages with long-tailed frequency distribution of domains with dynamic vocabularies (e.g. Twitter). So we adopta character-level convolutional neural networks for leverages subword infomration, which output is used as an input to a long short-term memory network. Similar to the memory cells in LSTM networks, highway (HW) layers allow for training of deep networks by adaptively carrying some dimensions of the input directly to the output. In our method, a max-over-time pooling operation is applied to obtain a fixed-dimensional representation of the word, which is given to the highway network. The highway network' output is used as the input to LSTM. From the table 1, we observe that the proposed method can obtain the comparable performance to joint decoding for tweet normalization. In addition, the character-level input has significant performance on word-level embedding input. Meanwhile, the attentional mechanism is beneficial to sequence to sequence model.
 \begin{table}
 	\begin{center}
 		\begin{tabular}{| c | c | c | }
@@ -215,81 +215,59 @@ A summay of our experimental results for tweet normalization is given Table 1. W
 	\end{center}
 \end{table}
 
-After tweet normalization, the model has capability for normalizing the informal text. So we utilize the model with same parameters and weight for similarity evaluation. Both paraphrase identification and semantic similarity are used for evaluating the performance of tweet normalization.
+After tweet normalization, the model has capability for normalizing the informal text. So we utilize the model with same parameters and weight for similarity evaluation. Both paraphrase identification and semantic similarity are used for evaluating the performance of tweet normalization. The paraphrase identification results are presented in Table 2. There are precesion(\textit{Prec}), recall(\textit{Rec}) and F-measure(\textit{$F_{1}$}) for evaluating the performance of proposed model. There are four baselines, including logistic regression \cite{das-smith:2009:ACLIJCNLP}, weighted matrix factorization \cite{guo-diab:2012:ACL2012}, referential machine translation \cite{bicici:2015:SemEval} and recursive auto-encoder \cite{NIPS2011_4204}. From the Table 2, we conclude that our method with character-level (Char) input is better than word-level (Word) input on paraphrase detection and the methods with normalization (Norm) have higher \textit{$F_{1}$} than the methods without normalization. What is more, our four methods obtain significant performance than other four baselines. The results indicates that normalization can promote the semantic representation of informal text.
 
-\subsection{Paraphrase Detection}
 \begin{table}
 	\begin{center}
 		\begin{tabular}{| c | c | c | c | }
 			\hline
-			\bf Model & \bf \textit{Precision}(\%) & \bf \textit{Recall}(\%)  &\bf  \textit{F}$_{1}$(\%)  \\ \hline
-			Logistic Regeression \cite{das-smith:2009:ACLIJCNLP} & 67.9 & 52.0 & 58.9  \\ \hline
-			Recursive Auto-encoder \cite{NIPS2011_4204} & 54.3 & 39.4 & 45.7  \\ 
+			\bf Methods & \bf \textit{Prec} & \bf \textit{Rec}  &\bf  \textit{F}$_{1}$ \\ \hline
+			Logistic Regeression  & 0.679 & 0.520 & 0.589  \\ \hline
+			Recursive Auto-encoder  & 0.543 & 0.394 & 0.457  \\ 
 			\hline
-			Weighted Matrix Factorization \cite{guo-diab:2012:ACL2012} & 45.0 & 66.3 & 53.6  \\ 
+			Weighted Matrix Factorization & 0.450 & 0.663 & 0.536  \\ 
 			\hline
-			Referential Machine Translation \cite{bicici:2015:SemEval} & 85.9 & 41.7 & 56.2  \\ 
+			Referential Machine Translation  & 0.859 & 0.417 & 0.562  \\ 
 			\hline
-			CharCNN  & 60.1 & 64.7 & 62.3  \\ 
+			Our Method (Word) without Norm& 0.598 & 0.631 & 0.614  \\ 
 			\hline
-			WordCNN  & 57.4 & 61.2 & 59.2  \\ 
+			Our Method (Word) with Norm & 0.642 & 0.651 & 0.646  \\ 
 			\hline
-			SentLSTM & 59.6 & 58.2 & 58.9  \\ 
+			Our Method (Char) without Norm & 0.637 & 0.649 & 0.643  \\ 
 			\hline
-			CharCNN+WordCNN  & 63.9 & 65.4 & 64.6  \\ 
-			\hline
-			CharCNN+SentLSTM  & 62.6 & 64.8 & 63.7 \\ 
-			\hline
-			WordCNN+SentLSTM  & 61.2 & 63.0 & 62.1  \\ 
-			\hline
-			CharCNN+WordCNN+SentLSTM(Cosine) & 60.1 & 55.4 & 57.7  \\ 
-			\hline
-			CharCNN+WordCNN+SentLSTM(Bilinear) & 59.2 & 63.9 & 61.5  \\ 
-			\hline
-			CharCNN+WordCNN+SentLSTM(Tensor) & 64.3 & 65.7 & 65.0  \\ 
+			Our Method (Char) with Norm & 0.654 & 0.672 & \bf 0.663  \\ 
 			\hline
 		\end{tabular}
 		\caption{Test set results on PIT for paraphrase identification.}
 	\end{center}
 \end{table}
 
+We also implement semantic similarity experiment on PIT, the results are given in Table 3, the pearson is used for semantic similarity. As the same as the paraphrase identification, we adopt four method, including word-level and character-level input with optional tweet normalization, for evaluating the performance of the proposed methods. In addition, we also use four baselines, including logistic regeression \cite{das-smith:2009:ACLIJCNLP}, Two-layer Neural Network \cite{bertero-fung:2015:SemEval}, Weighted Matrix Factorization \cite{guo-diab:2012:ACL2012} and Recurrent Neural Network \cite{zarrella-EtAl:2015:SemEval} for comparing the experimental performance. From the Table 3, we conclude that our model adopted the character-level input with normalization obtains the highest pearson score and word-level input also has better performance than other four baseline methods.
 
 \begin{table}
 	\begin{center}
 		\begin{tabular}{| c | c | c | }
 			\hline
 			\bf Model & \bf \textit{Pearson}  \\ \hline
-			Logistic Regeression \cite{das-smith:2009:ACLIJCNLP} & 0.511   \\ \hline
-			Two-layer Neural Network \cite{bertero-fung:2015:SemEval} & 0.545   \\ 
+			Logistic Regeression  & 0.511   \\ \hline
+			Two-layer Neural Network  & 0.545   \\ 
 			\hline
-			Weighted Matrix Factorization \cite{guo-diab:2012:ACL2012} & 0.350   \\ 
+			Weighted Matrix Factorization  & 0.350   \\ 
 			\hline
-			Recurrent Neural Network \cite{zarrella-EtAl:2015:SemEval} & 0.619   \\ 
+			Recurrent Neural Network  & 0.619   \\ 
 			\hline
-			CharCNN  & 0.558   \\ 
+			Our Method (Word) without Norm  & 0.581   \\ 
 			\hline
-			WordCNN  & 0.537   \\ 
+			Our Method (Word) with Norm  & 0.604   \\ 
 			\hline
-			SentLSTM & 0.541   \\ 
+			Our Method (Char) without Norm & 0.613   \\ 
 			\hline
-			CharCNN+WordCNN  & 0.577  \\ 
-			\hline
-			CharCNN+SentLSTM  & 0.581  \\ 
-			\hline
-			WordCNN+SentLSTM  & 0.568  \\ 
-			\hline
-			CharCNN+WordCNN+SentLSTM(Cosine) & 0.583  \\ 
-			\hline
-			CharCNN+WordCNN+SentLSTM(Bilinear) & 0.611  \\ 
-			\hline
-			CharCNN+WordCNN+SentLSTM(Tensor) & 0.626  \\ 
+			Our Method (Char) with Norm  & \bf 0.628  \\ 
 			\hline
 		\end{tabular}
-		\caption{Tweet Normalization.}
+		\caption{Test set results on PIT for semantic similarity.}
 	\end{center}
 \end{table}
-
-
 
 \section{Related Work}
 Neural language models (NLM) contain a rich family of neural network architectures for language modeling. Some examples encompass recurrent \cite{mikolov2010recurrent}, convolutional \cite{wang-EtAl:2015:ACL-IJCNLP3}, and convolutional-recurrent \cite{Kim-AAAI1612489}. In Twitter, there are existing rare and unknown words due to the social media characteristic,  therefore it is necessary for language model to point the unknown words before normalization. A neural network models using attention adopted two softmax layers in order to predict the next word in conditional language models \cite{gulcehre-EtAl:2016:P16-1}. Recurrent memory network \cite{tran-bisazza-monz:2016:N16-1} not only amplifies the power of recurrent neural networks but also facilitates the understanding of its internal functions, the model can learn the correct words by the trained language model. Log-bilinear language models integrate compositional morphological representations and probabilistic language modelling \cite{jan-phil:2014:icml}.
@@ -301,6 +279,8 @@ Although normalization on informal text has potential function on sentence repre
 Our work apply character-level input style convolutional recurrent neural network model for trianing a language model on word-level prediction. After pre-trained with formal corpus such as Wiki or Penn Treebank data, the language model is used for normalizing the informal tweets, which can automatically point unknown or non-standard words and normalize them. The normalized tweets will be measured semantic similarity further, and the similarity will feedback for normalization based on assumptaion that paraphrasing sentence pairs will keep semantic equivalence. The experimental results demonstrate that our model outperform the existing state-of-the-art systems.
 
 \section{Conclusion}
+In this paper, we proposed a novel approach for tweet normalization and semantic similarity. The proposed method adopted a sequence to sequence model with attention-based mechanism, which is used for tweet normalization. After normalized text, the model with pre-trained is used for paraphrase identification and sematic similarity.
+
 We accomplished a model and obtain a higher performance. In the future, we will do more works. We are going to use language model for normalization using the character-aware model. And paraphrase identification tasks are used for evaluating the performance of normalization in tweets.About tweet similarity, including paraphrase identification and entialment etc.. Moreover, the key work is about normalization in tweets. We are going to use language model for normalization using the character-aware model. And paraphrase identification tasks are used for evaluating the performance of normalization in tweets. We accomplished a model and obtain a higher performance. In the future, we will do more works. We are going to use language model for normalization using the character-aware model. And paraphrase identification tasks are used for evaluating the performance of normalization in tweets.About tweet similarity, including paraphrase identification and entialment etc.. Moreover, the key work is about normalization in tweets. We are going to use language model for normalization using the character-aware model. And paraphrase identification tasks are used for evaluating the performance of normalization in tweets.
 
 \bibliographystyle{aaai}

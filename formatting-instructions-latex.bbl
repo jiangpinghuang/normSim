@@ -8,6 +8,36 @@ Bahdanau, D.; Cho, K.; and Bengio, Y.
   translate.
 \newblock {\em CoRR} abs/1409.0473.
 
+\bibitem[\protect\citeauthoryear{Bertero and
+  Fung}{2015}]{bertero-fung:2015:SemEval}
+Bertero, D., and Fung, P.
+\newblock 2015.
+\newblock Hltc-hkust: A neural network paraphrase classifier using translation
+  metrics, semantic roles and lexical similarity features.
+\newblock In {\em Proceedings of the 9th International Workshop on Semantic
+  Evaluation (SemEval 2015)},  23--28.
+\newblock Denver, Colorado: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Bicici}{2015}]{bicici:2015:SemEval}
+Bicici, E.
+\newblock 2015.
+\newblock Rtm-dcu: Predicting semantic similarity with referential translation
+  machines.
+\newblock In {\em Proceedings of the 9th International Workshop on Semantic
+  Evaluation (SemEval 2015)},  56--63.
+\newblock Denver, Colorado: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Das and
+  Smith}{2009}]{das-smith:2009:ACLIJCNLP}
+Das, D., and Smith, N.~A.
+\newblock 2009.
+\newblock Paraphrase identification as probabilistic quasi-synchronous
+  recognition.
+\newblock In {\em Proceedings of the Joint Conference of the 47th Annual
+  Meeting of the ACL and the 4th International Joint Conference on Natural
+  Language Processing of the AFNLP},  468--476.
+\newblock Suntec, Singapore: Association for Computational Linguistics.
+
 \bibitem[\protect\citeauthoryear{Ganitkevitch, Van~Durme, and
   Callison-Burch}{2013}]{ganitkevitch-vandurme-callisonburch:2013:NAACL-HLT}
 Ganitkevitch, J.; Van~Durme, B.; and Callison-Burch, C.
@@ -26,6 +56,14 @@ Gulcehre, C.; Ahn, S.; Nallapati, R.; Zhou, B.; and Bengio, Y.
 \newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
   Computational Linguistics (Volume 1: Long Papers)},  140--149.
 \newblock Berlin, Germany: Association for Computational Linguistics.
+
+\bibitem[\protect\citeauthoryear{Guo and Diab}{2012}]{guo-diab:2012:ACL2012}
+Guo, W., and Diab, M.
+\newblock 2012.
+\newblock Modeling sentences in the latent space.
+\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)},  864--872.
+\newblock Jeju Island, Korea: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Han and
   Baldwin}{2011}]{han-baldwin:2011:ACL-HLT2011}
@@ -175,6 +213,17 @@ Severyn, A., and Moschitti, A.
 \newblock In {\em Proceedings of the 38th International ACM SIGIR Conference on
   Research and Development in Information Retrieval}, SIGIR '15,  373--382.
 \newblock New York, NY, USA: ACM.
+
+\bibitem[\protect\citeauthoryear{Socher \bgroup et al\mbox.\egroup
+  }{2011}]{NIPS2011_4204}
+Socher, R.; Huang, E.~H.; Pennin, J.; Manning, C.~D.; and Ng, A.~Y.
+\newblock 2011.
+\newblock Dynamic pooling and unfolding recursive autoencoders for paraphrase
+  detection.
+\newblock In Shawe-Taylor, J.; Zemel, R.~S.; Bartlett, P.~L.; Pereira, F.; and
+  Weinberger, K.~Q., eds., {\em Advances in Neural Information Processing
+  Systems 24}. Curran Associates, Inc.
+\newblock  801--809.
 
 \bibitem[\protect\citeauthoryear{Sutskever, Vinyals, and
   Le}{2014}]{Sutskever:2014:SSL:2969033.2969173}
