@@ -32,45 +32,45 @@ Repeated entry---line 847 of file aaai16.bib.bib
  :                                          ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in mikolov2010recurrent
-You've used 35 entries,
+You've used 34 entries,
             2568 wiz_defined-function locations,
-            798 strings with 11468 characters,
-and the built_in function-call counts, 17994 in all, are:
-= -- 2004
-> -- 623
+            793 strings with 11272 characters,
+and the built_in function-call counts, 17649 in all, are:
+= -- 1967
+> -- 605
 < -- 28
-+ -- 213
-- -- 208
-* -- 1313
-:= -- 2658
-add.period$ -- 200
-call.type$ -- 35
-change.case$ -- 244
-chr.to.int$ -- 34
-cite$ -- 36
-duplicate$ -- 787
-empty$ -- 1323
-format.name$ -- 271
-if$ -- 3976
++ -- 207
+- -- 202
+* -- 1285
+:= -- 2597
+add.period$ -- 195
+call.type$ -- 34
+change.case$ -- 237
+chr.to.int$ -- 33
+cite$ -- 35
+duplicate$ -- 774
+empty$ -- 1304
+format.name$ -- 262
+if$ -- 3909
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 237
-num.names$ -- 105
-pop$ -- 225
+missing$ -- 34
+newline$ -- 231
+num.names$ -- 102
+pop$ -- 221
 preamble$ -- 1
-purify$ -- 279
+purify$ -- 271
 quote$ -- 0
-skip$ -- 686
+skip$ -- 674
 stack$ -- 0
-substring$ -- 1110
-swap$ -- 315
+substring$ -- 1105
+swap$ -- 313
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 280
+type$ -- 272
 warning$ -- 1
-while$ -- 155
-width$ -- 40
-write$ -- 542
+while$ -- 153
+width$ -- 39
+write$ -- 528
 (There were 7 error messages)

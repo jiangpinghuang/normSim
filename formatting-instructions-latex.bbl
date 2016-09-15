@@ -1,13 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{Bahdanau, Cho, and
-  Bengio}{2014}]{DBLP:journals/corr/BahdanauCB14}
-Bahdanau, D.; Cho, K.; and Bengio, Y.
-\newblock 2014.
-\newblock Neural machine translation by jointly learning to align and
-  translate.
-\newblock {\em CoRR} abs/1409.0473.
-
 \bibitem[\protect\citeauthoryear{Bertero and
   Fung}{2015}]{bertero-fung:2015:SemEval}
 Bertero, D., and Fung, P.
