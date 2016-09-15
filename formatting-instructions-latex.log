@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.6)  14 SEP 2016 23:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.6)  15 SEP 2016 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -258,9 +258,7 @@ Underfull \vbox (badness 1242) has occurred while \output is active []
 (./formatting-instructions-latex.bbl [6]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ½ in font ptmr7t!
- [7]) [8
-
-]
+) [7]
 (./formatting-instructions-latex.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -293,10 +291,10 @@ st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on formatting-instructions-latex.pdf (8 pages, 272263 bytes).
+Output written on formatting-instructions-latex.pdf (7 pages, 268134 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

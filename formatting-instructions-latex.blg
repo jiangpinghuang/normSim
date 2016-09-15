@@ -3,75 +3,74 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: formatting-instructions-latex.aux
 The style file: aaai.bst
 Database file #1: aaai16.bib.bib
-Repeated entry---line 394 of file aaai16.bib.bib
+Repeated entry---line 377 of file aaai16.bib.bib
  : @inproceedings{Severyn:2015:LRS:2766462.2767738
  :                                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 683 of file aaai16.bib.bib
+Repeated entry---line 648 of file aaai16.bib.bib
  : @inproceedings{zarrella-EtAl:2015:SemEval
  :                                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 707 of file aaai16.bib.bib
+Repeated entry---line 670 of file aaai16.bib.bib
  : @article{Hochreiter:1997:LSM:1246443.1246450
  :                                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 804 of file aaai16.bib.bib
+Repeated entry---line 766 of file aaai16.bib.bib
  : @inproceedings{ganitkevitch-vandurme-callisonburch:2013:NAACL-HLT
  :                                                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 828 of file aaai16.bib.bib
+Repeated entry---line 790 of file aaai16.bib.bib
  : @inproceedings{xu-callisonburch-dolan:2015:SemEval
  :                                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 861 of file aaai16.bib.bib
+Repeated entry---line 823 of file aaai16.bib.bib
  : @inproceedings{xu-callisonburch-dolan:2015:SemEval
  :                                                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 885 of file aaai16.bib.bib
+Repeated entry---line 847 of file aaai16.bib.bib
  : @inproceedings{zarrella-EtAl:2015:SemEval
  :                                          ,
 I'm skipping whatever remains of this entry
-Warning--empty booktitle in Kim-AAAI1612489
 Warning--empty journal in mikolov2010recurrent
 You've used 35 entries,
             2568 wiz_defined-function locations,
-            809 strings with 13508 characters,
-and the built_in function-call counts, 18070 in all, are:
+            798 strings with 11468 characters,
+and the built_in function-call counts, 17994 in all, are:
 = -- 2004
-> -- 640
+> -- 623
 < -- 28
-+ -- 218
-- -- 213
-* -- 1326
-:= -- 2676
-add.period$ -- 201
++ -- 213
+- -- 208
+* -- 1313
+:= -- 2658
+add.period$ -- 200
 call.type$ -- 35
 change.case$ -- 244
 chr.to.int$ -- 34
-cite$ -- 37
-duplicate$ -- 786
-empty$ -- 1322
-format.name$ -- 276
-if$ -- 3986
+cite$ -- 36
+duplicate$ -- 787
+empty$ -- 1323
+format.name$ -- 271
+if$ -- 3976
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 35
 newline$ -- 237
-num.names$ -- 107
-pop$ -- 226
+num.names$ -- 105
+pop$ -- 225
 preamble$ -- 1
 purify$ -- 279
 quote$ -- 0
 skip$ -- 686
 stack$ -- 0
 substring$ -- 1110
-swap$ -- 314
+swap$ -- 315
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 280
-warning$ -- 2
-while$ -- 156
+warning$ -- 1
+while$ -- 155
 width$ -- 40
-write$ -- 541
+write$ -- 542
 (There were 7 error messages)

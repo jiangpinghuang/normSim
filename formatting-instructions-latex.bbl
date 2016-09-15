@@ -14,8 +14,7 @@ Bertero, D., and Fung, P.
 \newblock 2015.
 \newblock Hltc-hkust: A neural network paraphrase classifier using translation
   metrics, semantic roles and lexical similarity features.
-\newblock In {\em Proceedings of the 9th International Workshop on Semantic
-  Evaluation (SemEval 2015)},  23--28.
+\newblock In {\em Proceedings of SemEval},  23--28.
 \newblock Denver, Colorado: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Bicici}{2015}]{bicici:2015:SemEval}
@@ -23,8 +22,7 @@ Bicici, E.
 \newblock 2015.
 \newblock Rtm-dcu: Predicting semantic similarity with referential translation
   machines.
-\newblock In {\em Proceedings of the 9th International Workshop on Semantic
-  Evaluation (SemEval 2015)},  56--63.
+\newblock In {\em Proceedings of SemEval},  56--63.
 \newblock Denver, Colorado: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Das and
@@ -33,9 +31,7 @@ Das, D., and Smith, N.~A.
 \newblock 2009.
 \newblock Paraphrase identification as probabilistic quasi-synchronous
   recognition.
-\newblock In {\em Proceedings of the Joint Conference of the 47th Annual
-  Meeting of the ACL and the 4th International Joint Conference on Natural
-  Language Processing of the AFNLP},  468--476.
+\newblock In {\em Proceedings of ACL},  468--476.
 \newblock Suntec, Singapore: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Ganitkevitch, Van~Durme, and
@@ -43,9 +39,7 @@ Das, D., and Smith, N.~A.
 Ganitkevitch, J.; Van~Durme, B.; and Callison-Burch, C.
 \newblock 2013.
 \newblock Ppdb: The paraphrase database.
-\newblock In {\em Proceedings of the 2013 Conference of the North American
-  Chapter of the Association for Computational Linguistics: Human Language
-  Technologies},  758--764.
+\newblock In {\em Proceedings of NAACL},  758--764.
 \newblock Atlanta, Georgia: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Gulcehre \bgroup et al\mbox.\egroup
@@ -53,16 +47,14 @@ Ganitkevitch, J.; Van~Durme, B.; and Callison-Burch, C.
 Gulcehre, C.; Ahn, S.; Nallapati, R.; Zhou, B.; and Bengio, Y.
 \newblock 2016.
 \newblock Pointing the unknown words.
-\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
-  Computational Linguistics (Volume 1: Long Papers)},  140--149.
+\newblock In {\em Proceedings of ACL},  140--149.
 \newblock Berlin, Germany: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Guo and Diab}{2012}]{guo-diab:2012:ACL2012}
 Guo, W., and Diab, M.
 \newblock 2012.
 \newblock Modeling sentences in the latent space.
-\newblock In {\em Proceedings of the 50th Annual Meeting of the Association for
-  Computational Linguistics (Volume 1: Long Papers)},  864--872.
+\newblock In {\em Proceedings of ACL},  864--872.
 \newblock Jeju Island, Korea: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Han and
@@ -70,8 +62,7 @@ Guo, W., and Diab, M.
 Han, B., and Baldwin, T.
 \newblock 2011.
 \newblock Lexical normalisation of short text messages: Makn sens a \#twitter.
-\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
-  Computational Linguistics: Human Language Technologies},  368--378.
+\newblock In {\em Proceedings of ACL},  368--378.
 \newblock Portland, Oregon, USA: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Henderson and
@@ -79,8 +70,7 @@ Han, B., and Baldwin, T.
 Henderson, J., and Popa, D.
 \newblock 2016.
 \newblock A vector space for distributional semantics for entailment.
-\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
-  Computational Linguistics (Volume 1: Long Papers)},  2052--2062.
+\newblock In {\em Proceedings of ACL},  2052--2062.
 \newblock Berlin, Germany: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Hochreiter and
@@ -102,8 +92,7 @@ Jan, A.~B., and Blunsom, P.
 \newblock 2014.
 \newblock Compositional morphology forword representations and language
   modelling.
-\newblock In {\em Proceedings of the 31st International Conference on Machine
-  Learning}, volume~32.
+\newblock In {\em Proceedings of ICML}, volume~32.
 \newblock Beijing, China: JMLR.
 
 \bibitem[\protect\citeauthoryear{Kim \bgroup et al\mbox.\egroup
@@ -111,7 +100,7 @@ Jan, A.~B., and Blunsom, P.
 Kim, Y.; Jernite, Y.; Sontag, D.; and Rush, A.
 \newblock 2016.
 \newblock Character-aware neural language models.
-\newblock  2741--2749.
+\newblock In {\em Proceedings of AAAI},  2741--2749.
 
 \bibitem[\protect\citeauthoryear{Li and Liu}{2014}]{li-liu:2014:P14-3}
 Li, C., and Liu, Y.
@@ -127,8 +116,7 @@ Li, C., and Liu, Y.
 Li, C., and Liu, Y.
 \newblock 2015.
 \newblock Joint pos tagging and text normalization for informal text.
-\newblock In {\em Proceedings of the 24th International Conference on
-  Artificial Intelligence}, IJCAI'15,  1263--1269.
+\newblock In {\em Proceedings of IJCAI}, IJCAI'15,  1263--1269.
 \newblock AAAI Press.
 
 \bibitem[\protect\citeauthoryear{Liang and
@@ -136,16 +124,14 @@ Li, C., and Liu, Y.
 Liang, C., and Paritosh, P.
 \newblock 2016.
 \newblock Learning paraphrase identification with structural alignmen.
-\newblock In {\em Proceedings of the Twenty-Fifth International Joint
-  Conference on Artificial Intelligence},  2859--2865.
+\newblock In {\em Proceedings of IJCAI},  2859--2865.
 
 \bibitem[\protect\citeauthoryear{Ling \bgroup et al\mbox.\egroup
   }{2013}]{ling-EtAl:2013:EMNLP}
 Ling, W.; Dyer, C.; Black, A.~W.; and Trancoso, I.
 \newblock 2013.
 \newblock Paraphrasing 4 microblog normalization.
-\newblock In {\em Proceedings of the 2013 Conference on Empirical Methods in
-  Natural Language Processing},  73--84.
+\newblock In {\em Proceedings of EMNLP},  73--84.
 \newblock Seattle, Washington, USA: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Luong, Pham, and
@@ -153,8 +139,7 @@ Ling, W.; Dyer, C.; Black, A.~W.; and Trancoso, I.
 Luong, T.; Pham, H.; and Manning, C.~D.
 \newblock 2015.
 \newblock Effective approaches to attention-based neural machine translation.
-\newblock In {\em Proceedings of the 2015 Conference on Empirical Methods in
-  Natural Language Processing},  1412--1421.
+\newblock In {\em Proceedings of EMNLP},  1412--1421.
 \newblock Lisbon, Portugal: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Mikolov \bgroup et al\mbox.\egroup
@@ -168,7 +153,7 @@ Mikolov, T.; Karafiat, M.; Burget, L.; Cernocký, J.; and Khudanpur, S.
 Mueller, J., and Thyagarajan, A.
 \newblock 2016.
 \newblock Siamese recurrent architectures for learning sentence similarity.
-\newblock In {\em AAAI Conference on Artificial Intelligence},  2786--2792.
+\newblock In {\em Proceedings of AAAI},  2786--2792.
 
 \bibitem[\protect\citeauthoryear{Pavlick \bgroup et al\mbox.\egroup
   }{2015a}]{pavlick-EtAl:2015:ACL-IJCNLP}
@@ -176,9 +161,7 @@ Pavlick, E.; Bos, J.; Nissim, M.; Beller, C.; Van~Durme, B.; and
   Callison-Burch, C.
 \newblock 2015a.
 \newblock Adding semantics to data-driven paraphrasing.
-\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
-  Computational Linguistics and the 7th International Joint Conference on
-  Natural Language Processing (Volume 1: Long Papers)},  1512--1522.
+\newblock In {\em Proceedings of ACL},  1512--1522.
 \newblock Beijing, China: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Pavlick \bgroup et al\mbox.\egroup
@@ -188,9 +171,7 @@ Pavlick, E.; Rastogi, P.; Ganitkevitch, J.; Van~Durme, B.; and Callison-Burch,
 \newblock 2015b.
 \newblock Ppdb 2.0: Better paraphrase ranking, fine-grained entailment
   relations, word embeddings, and style classification.
-\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
-  Computational Linguistics and the 7th International Joint Conference on
-  Natural Language Processing (Volume 2: Short Papers)},  425--430.
+\newblock In {\em Proceedings of ACL},  425--430.
 \newblock Beijing, China: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Pennell and
@@ -199,8 +180,7 @@ Pennell, D., and Liu, Y.
 \newblock 2011.
 \newblock A character-level machine translation approach for normalization of
   sms abbreviations.
-\newblock In {\em Proceedings of 5th International Joint Conference on Natural
-  Language Processing},  974--982.
+\newblock In {\em Proceedings of IJCNLP},  974--982.
 \newblock Chiang Mai, Thailand: Asian Federation of Natural Language
   Processing.
 
@@ -210,9 +190,8 @@ Severyn, A., and Moschitti, A.
 \newblock 2015.
 \newblock Learning to rank short text pairs with convolutional deep neural
   networks.
-\newblock In {\em Proceedings of the 38th International ACM SIGIR Conference on
-  Research and Development in Information Retrieval}, SIGIR '15,  373--382.
-\newblock New York, NY, USA: ACM.
+\newblock In {\em Proceedings of SIGIR}, SIGIR '15,  373--382.
+\newblock ACM.
 
 \bibitem[\protect\citeauthoryear{Socher \bgroup et al\mbox.\egroup
   }{2011}]{NIPS2011_4204}
@@ -220,9 +199,7 @@ Socher, R.; Huang, E.~H.; Pennin, J.; Manning, C.~D.; and Ng, A.~Y.
 \newblock 2011.
 \newblock Dynamic pooling and unfolding recursive autoencoders for paraphrase
   detection.
-\newblock In Shawe-Taylor, J.; Zemel, R.~S.; Bartlett, P.~L.; Pereira, F.; and
-  Weinberger, K.~Q., eds., {\em Advances in Neural Information Processing
-  Systems 24}. Curran Associates, Inc.
+\newblock In {\em Proceedings of NIPS}. Curran Associates, Inc.
 \newblock  801--809.
 
 \bibitem[\protect\citeauthoryear{Sutskever, Vinyals, and
@@ -230,8 +207,7 @@ Socher, R.; Huang, E.~H.; Pennin, J.; Manning, C.~D.; and Ng, A.~Y.
 Sutskever, I.; Vinyals, O.; and Le, Q.~V.
 \newblock 2014.
 \newblock Sequence to sequence learning with neural networks.
-\newblock In {\em Proceedings of the 27th International Conference on Neural
-  Information Processing Systems}, NIPS'14,  3104--3112.
+\newblock In {\em Proceedings of NIPS}, NIPS'14,  3104--3112.
 \newblock Cambridge, MA, USA: MIT Press.
 
 \bibitem[\protect\citeauthoryear{Tran, Bisazza, and
@@ -239,9 +215,7 @@ Sutskever, I.; Vinyals, O.; and Le, Q.~V.
 Tran, K.; Bisazza, A.; and Monz, C.
 \newblock 2016.
 \newblock Recurrent memory networks for language modeling.
-\newblock In {\em Proceedings of the 2016 Conference of the North American
-  Chapter of the Association for Computational Linguistics: Human Language
-  Technologies},  321--331.
+\newblock In {\em Proceedings of NAACL},  321--331.
 \newblock San Diego, California: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{van~der Goot and van
@@ -249,8 +223,7 @@ Tran, K.; Bisazza, A.; and Monz, C.
 van~der Goot, R., and van Noord, G.
 \newblock 2015.
 \newblock Rob: Using semantic meaning to recognize paraphrases.
-\newblock In {\em Proceedings of the 9th International Workshop on Semantic
-  Evaluation (SemEval 2015)},  40--44.
+\newblock In {\em Proceedings ofSemEval},  40--44.
 \newblock Denver, Colorado: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Wang \bgroup et al\mbox.\egroup
@@ -258,9 +231,7 @@ van~der Goot, R., and van Noord, G.
 Wang, M.; Lu, Z.; Li, H.; Jiang, W.; and Liu, Q.
 \newblock 2015.
 \newblock A convolutional architecture for word sequence prediction.
-\newblock In {\em Proceedings of the 53rd Annual Meeting of the Association for
-  Computational Linguistics and the 7th International Joint Conference on
-  Natural Language Processing (Volume 1: Long Papers)},  1567--1576.
+\newblock In {\em Proceedings of ACL},  1567--1576.
 \newblock Beijing, China: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Wieting \bgroup et al\mbox.\egroup
@@ -284,8 +255,7 @@ Xu, W.; Callison-Burch, C.; and Dolan, B.
 \newblock 2015.
 \newblock Semeval-2015 task 1: Paraphrase and semantic similarity in twitter
   (pit).
-\newblock In {\em Proceedings of the 9th International Workshop on Semantic
-  Evaluation (SemEval 2015)},  1--11.
+\newblock In {\em Proceedings of SemEval},  1--11.
 \newblock Denver, Colorado: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Yin and
@@ -293,9 +263,7 @@ Xu, W.; Callison-Burch, C.; and Dolan, B.
 Yin, W., and Sch\"{u}tze, H.
 \newblock 2015.
 \newblock Convolutional neural network for paraphrase identification.
-\newblock In {\em Proceedings of the 2015 Conference of the North American
-  Chapter of the Association for Computational Linguistics: Human Language
-  Technologies},  901--911.
+\newblock In {\em Proceedings of NAACL},  901--911.
 \newblock Denver, Colorado: Association for Computational Linguistics.
 
 \bibitem[\protect\citeauthoryear{Zaremba and
@@ -310,8 +278,7 @@ Zaremba, W., and Sutskever, I.
 Zarrella, G.; Henderson, J.; Merkhofer, E.~M.; and Strickhart, L.
 \newblock 2015.
 \newblock Mitre: Seven systems for semantic similarity in tweets.
-\newblock In {\em Proceedings of the 9th International Workshop on Semantic
-  Evaluation (SemEval 2015)},  12--17.
+\newblock In {\em Proceedings of SemEval},  12--17.
 \newblock Denver, Colorado: Association for Computational Linguistics.
 
 \end{thebibliography}
